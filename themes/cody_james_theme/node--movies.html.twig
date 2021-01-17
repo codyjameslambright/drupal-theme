@@ -1,0 +1,19 @@
+{% if content.field_show_poster_['#items'].getValue()|first.value == "1" %}
+    <div class="movie-poster">
+        {{ content.field_movie_poster }}
+    </div>
+{% else %}
+    Sorry, the movie poster is not available
+{% endif %}
+
+<div class="director">
+    {{ content.field_director }}
+</div>
+
+<div class="actors">
+    {{ content.field_actors }}
+</div>
+
+<div class="movie-description">
+    {{ content.body }}
+</div>

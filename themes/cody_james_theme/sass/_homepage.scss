@@ -1,0 +1,27 @@
+main {
+    @extend .row;
+
+    margin-top: 2rem;
+}
+
+.layout-content {
+    @extend .col-lg-8;
+}
+
+.layout-sidebar-first {
+    @extend .col-lg-4;
+}
+
+.article-list {
+    h3 {
+        a {
+            color: #000;
+        }
+    }
+
+    .views-row {
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #ccc;
+    }
+}

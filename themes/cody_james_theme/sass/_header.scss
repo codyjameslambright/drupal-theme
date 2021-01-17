@@ -1,0 +1,32 @@
+.main-header {
+    background: #007bff;
+    padding: 1.5rem 0;
+    width: 100%;
+}
+
+#block-cody-james-theme-branding {
+    @extend .col-lg-4;
+}
+
+.main-navigation {
+    @extend .col-lg-8;
+
+    ul {
+        list-style: none;
+        text-align: right;
+        margin: 1rem 0 0;
+
+        li {
+            display: inline;
+            padding: 0 0.5rem;
+
+            a {
+                color: #fff;
+                
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

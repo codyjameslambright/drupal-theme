@@ -1,0 +1,18 @@
+name: Cody James Theme
+description: Drupal Starter Theme
+type: theme
+core: 8.x
+package: Custom
+base theme: false
+core_version_requirement: ^8 || ^9
+libraries:
+  - cody_james_theme/global-css
+  - cody_james_theme/global-js
+
+regions:
+  content: 'Main Content'
+  header: 'Header'
+  footer: 'Footer'
+  sidebar: 'Sidebar'
+  main_navigation: 'Main Navigation'
+  latest_movies: 'Latest Movies'
